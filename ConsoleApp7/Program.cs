@@ -1,11 +1,10 @@
 ﻿using System.Collections.Specialized;
-
 namespace ConsoleApp7
 {
     internal class Program
     {
         static void Main(string[] args)
-        {
+       {
             #region 1
             int x =int.Parse(Console.ReadLine());
             if (x % 3 == 0 && x % 4 == 0)
